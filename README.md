@@ -10,6 +10,7 @@ This project focuses on analyzing MRI data using the OASIS dataset through a hyb
 - **mri_data_analysis/**
   - **data/**
     - `oasis_cleaned.csv` - Processed dataset with clinical variables
+  - **trained_models/** - Trained CNN model weights and configurations
   - `mri_data_analysis.ipynb` - CNN model for MRI analysis
 - **sequential_data_analysis/**
   - **data/**
