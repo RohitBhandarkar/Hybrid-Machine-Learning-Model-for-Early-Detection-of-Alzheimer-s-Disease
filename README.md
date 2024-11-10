@@ -102,17 +102,37 @@ The architecture follows a streamlined workflow from data preprocessing to final
 
 ## Results
 
-Our system demonstrates promising results in early Alzheimer's detection:
+### Data Imputation Performance
 
-[Results coming soon]
+The following graph compares the performance of three different imputation models tested on our dataset:
 
-- Model performance metrics
-- Validation studies
-- Comparison with existing methods
-- Clinical trial outcomes
-- Real-world application results
+![Data Imputation Results](docs/data_imputation_results.png)
 
-This section will be updated with detailed performance analysis and validation results.
+### Sequential Data Analysis Results
+
+The sequential data analysis pipeline was evaluated in multiple stages. First, we analyzed the performance of individual models before ensemble integration:
+
+<img src="docs/seq_analysis_pre_ensemble_1.png" width="600">
+<img src="docs/seq_analysis_pre_ensemble_2.png" width="600">
+
+After combining the models into an ensemble, we achieved improved performance metrics:
+
+<img src="docs/seq_analysis_ensemble.png" width="600">
+
+### MRI Analysis Results
+
+Our MRI scan analysis pipeline underwent rigorous evaluation. The following visualizations demonstrate the model's performance across different metrics and configurations:
+
+<img src="docs/mri_analysis_comparison_1.png" width="600">
+<img src="docs/mri_analysis_comparison_2.png" width="600">
+
+
+### Combined Model Performance
+
+*Results for the combined model performance will be uploaded soon.*
+
+
+
 
 ## Future Prospects
 
