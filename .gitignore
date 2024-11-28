@@ -1,6 +1,6 @@
 /assets
 data/oasis_cleaned.csv
 data/oasis_longitudinal_demographics.csv
-venv
+.venv
 data/*.tar.gz
 
